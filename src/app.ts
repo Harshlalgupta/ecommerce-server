@@ -33,7 +33,7 @@ const app=express();
 
 app.use(express.json());               //challenge , it should be above all the routes
 app.use(morgan("dev"));
-app.use(cors());
+app.use(cors({origin:"ecommerce-frontend-new-gold.vercel.app"}));
 
 //const PORT=3000;
 
