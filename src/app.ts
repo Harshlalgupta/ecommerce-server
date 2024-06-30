@@ -35,8 +35,7 @@ app.use(express.json());               //challenge , it should be above all the 
 app.use(morgan("dev"));
 app.use(
     cors({
-      origin: "ecommerce-frontend-new-gold.vercel.app",
-      methods: ["GET", "POST", "PUT", "DELETE"],
+      origin: 'https://mern-ecommerce-frontend-eta.vercel.app',
       credentials: true,
     })
   );
